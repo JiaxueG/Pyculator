@@ -1,3 +1,3 @@
 # Pyculator by Jiaxue
-A type-in calculator based on Pyqt5. 
+A type-in calculator based on Python. 
 Jiaxue_G
