@@ -28,7 +28,7 @@ class launchPyculator(QMainWindow, Ui_MainWindow):
             result = eval(text)
             self.ui.lcdNumber.display(str(result))
             self.ui.listWidget.addItem(text)
-            # self.ui.lineEdit.clear()
+            self.ui.lineEdit.clear()
         except:
             self.ui.lcdNumber.display("Err")
 
